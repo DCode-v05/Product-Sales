@@ -1,84 +1,66 @@
-# 🛒 Product Sales Prediction
+# Product Sales Prediction
 
-This project analyzes a product sales dataset and builds regression models to **predict purchase amounts** based on user demographics and product categories.  
-It includes **data cleaning, EDA, feature encoding**, and modeling using **Linear Regression** and **Random Forest**.
+## Project Description
+This project focuses on analyzing and predicting product sales amounts using customer demographics and product information. By leveraging machine learning techniques, the project aims to provide insights into purchasing behavior and build predictive models for sales forecasting.
 
----
+## Project Details
 
-## 📘 Problem Statement
+### Problem Statement
+Given a dataset containing customer and product details, the objective is to predict the purchase amount for each transaction. This is a regression problem with the target variable being the `Purchase` column.
 
-Given customer and product information, the task is to **predict the Purchase amount** using machine learning models.  
-This is a regression problem where the target is the `Purchase` column.
+### Data Overview
+- **Dataset:** `train.csv` contains 550,068 records with 12 columns, including user demographics, product categories, and purchase amounts.
+- **Features:**
+  - User_ID, Product_ID, Gender, Age, Occupation, City_Category, Stay_In_Current_City_Years, Marital_Status, Product_Category_1/2/3, Purchase
 
----
+### Exploratory Data Analysis (EDA)
+- Analyzed purchase trends by gender, age, occupation, city category, and marital status.
+- Visualized spending patterns to identify high-value customer segments.
 
-## 📂 Project Structure
+### Data Preprocessing
+- Dropped irrelevant columns (e.g., Product_ID).
+- Filled missing values in product categories with mean values.
+- Encoded categorical variables using manual label encoding.
 
-- `train.csv` — The dataset containing customer, product, and purchase information  
-- `Product_Sales_EDA_Model.ipynb` — Jupyter Notebook with full EDA, preprocessing, and modeling steps
+### Modeling
+- **Linear Regression:** Used as a baseline model to estimate purchase values.
+- **Random Forest Regressor:** Ensemble model that improved prediction accuracy over the baseline.
 
----
+## Tech Stack
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Getting Started
 
-Explored key trends using seaborn bar plots:
-
-- Purchase amount by **Gender**
-- Purchase amount by **Age**
-- Purchase amount by **Occupation**
-- Purchase amount by **City Category**
-- Purchase amount by **Marital Status**
-
-### 📊 Visual Insights
-
-Bar plots revealed:
-- Male customers tend to spend more on average
-- Certain age groups (e.g., 26–35) are high spenders
-- Occupation and city also influence spending behavior
-
----
-
-## 🧹 Data Preprocessing
-
-- Dropped irrelevant columns like `Product_ID`
-- Filled missing values in product categories with **mean**
-- Encoded all categorical columns into numerical values using **manual label encoding**
-
----
-
-## 🤖 Machine Learning Models
-
-Trained two regression models:
-
-### 1️⃣ Linear Regression
-- A basic baseline model
-- Learned weights for each feature to estimate `Purchase` values
-
-### 2️⃣ Random Forest Regressor
-- Used ensemble learning with decision trees
-- Performed better than linear regression in most cases
-
----
-
-## 🧰 Technologies Used
-
-- Python 🐍
-- Pandas & NumPy 🧮
-- Seaborn & Matplotlib 📊
-- Scikit-learn 🤖
-- Jupyter Notebook 📓
-
----
-
-## ▶️ How to Run
-
-1. **Clone the Repository**:
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Denistanb/Product-Sales.git
+   git clone https://github.com/TensoRag/Product-Sales.git
    cd Product-Sales
-2. **Install Dependencies**:
+   ```
+2. **Install Dependencies:**
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
-3. **Launch the Notebook**:
+   ```
+3. **Launch the Notebook:**
    ```bash
    jupyter notebook "Product Sales.ipynb"
+   ```
+
+## Usage
+- Open the Jupyter notebook and follow the step-by-step analysis, preprocessing, and modeling workflow.
+- Modify the notebook to experiment with different models or preprocessing techniques.
+
+## Project Structure
+- `Product Sales.ipynb` — Main notebook containing EDA, preprocessing, and modeling steps.
+- `train.csv` — Dataset with customer, product, and purchase information.
+- `README.md` — Project documentation.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## Contact
+- **GitHub:** [TensoRag](https://github.com/TensoRag)
+- **Email:** denistanb05@gmail.com
