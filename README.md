@@ -59,8 +59,23 @@ Given a dataset containing customer and product details, the objective is to pre
 - `README.md` — Project documentation.
 
 ## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
+Contributions are welcome! To contribute:
+1. Fork the repository
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a pull request describing your changes.
+6. 
 ## Contact
 - **GitHub:** [TensoRag](https://github.com/TensoRag)
 - **Email:** denistanb05@gmail.com
