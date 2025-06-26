@@ -75,7 +75,7 @@ Contributions are welcome! To contribute:
    git push origin feature/your-feature
    ```
 5. Open a pull request describing your changes.
-6. 
+
 ## Contact
 - **GitHub:** [TensoRag](https://github.com/TensoRag)
 - **Email:** denistanb05@gmail.com
