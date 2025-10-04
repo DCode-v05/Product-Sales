@@ -37,7 +37,7 @@ Given a dataset containing customer and product details, the objective is to pre
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/TensoRag/Product-Sales.git
+   git clone https://github.com/DCode-v05/Product-Sales.git
    cd Product-Sales
    ```
 2. **Install Dependencies:**
