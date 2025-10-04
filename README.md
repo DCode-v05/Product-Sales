@@ -77,5 +77,5 @@ Contributions are welcome! To contribute:
 5. Open a pull request describing your changes.
 
 ## Contact
-- **GitHub:** [TensoRag](https://github.com/TensoRag)
+- **GitHub:** [DCode-v05](https://github.com/DCode-v05)
 - **Email:** denistanb05@gmail.com
